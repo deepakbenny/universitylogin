@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "christlogin",
+  "description": "I'am tired of seeing christuniversity website",
+
+  "options_page": "options.html",
+
+  "version": "1.0",
+  
+  "permissions": [
+    "http://192.168.100.100/login.xml/",
+    "storage"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
