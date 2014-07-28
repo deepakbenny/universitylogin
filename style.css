@@ -1,0 +1,53 @@
+.popwrap{
+  margin: 0 auto;
+  width: 150px;
+  text-align: center;
+  font-family: sans-serif;
+  height: 150px;
+}
+
+
+/*options page*/
+.wrap{
+  margin: 0 auto;
+  margin-top: 130px;
+  width: 200px;
+  padding: 40px;
+  font-family: sans-serif;
+  border: 1px solid #A6A6A6;
+  height: 200px;
+}
+
+input{
+  margin: 2px 0px 10px 0px;
+  padding: 2px;
+}
+
+#save{
+  margin: 10px 0px 0px 3px;
+  border: 0px;
+  width: 80px;
+  padding: 5px;
+ border: 1px solid #C2EBFF; 
+}
+
+#save:hover{
+  background-color: #E1E1E1;
+  border: 1px solid #94DBFF;
+}
+
+#redstatus{
+  text-align: center;
+  color: red;
+}
+
+#greenstatus{
+  text-align: center;
+  color: green;
+}
+
+#login{
+  background-color: #B8E3B8;
+  border: 0px;
+  padding: 5px 15px 5px 15px;
+}
