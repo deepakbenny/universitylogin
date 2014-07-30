@@ -6,7 +6,7 @@ function userLogin(){
   var url = "http://192.168.100.100:8090/login.xml";
   var params = "mode=191&";
   if(username == null || password == null ){
-    //document.getElementById("redstatus").innerHTML = "Error </br>Fill in options page";
+    alert("Fill Username and password in options page");
   }
   else{
     params += "username=" + username + "&password=" + password;
@@ -18,7 +18,7 @@ function userLogin(){
       if(xhttp.readyState == 4) {
         if(xhttp.responseText.indexOf("logged in") != -1)
           alert("Connected");
-        else
+        else 
           alert("Wrong username or password");
       }
     }
