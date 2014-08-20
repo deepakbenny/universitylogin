@@ -4,14 +4,14 @@
   "name": "christlogin",
 
    "background": {
-    "scripts": ["popup.js"]
+    "scripts": ["popup.js","background.js"]
   },
 
   "description": "I'am tired of seeing christuniversity website",
 
   "options_page": "options.html",
 
-  "version": "1.1",
+  "version": "0.0.1",
 
   "permissions": [
     "http://192.168.100.100/login.xml/",

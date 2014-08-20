@@ -1,9 +1,9 @@
 chrome.browserAction.onClicked.addListener(jarviS);
 
 window.onbeforeunload = function() {
-  localStorage.setItem("log",false);
+  localStorage.removeItem("log");
   return '';
-}
+};
 
 //check internet connection
 function checkConnection(){
