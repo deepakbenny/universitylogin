@@ -14,7 +14,8 @@ function checkConnection(){
     return false;
   }
 }
-//check fields
+
+//check localstorage fields
 function checkFields(){
   var username = localStorage.getItem("username");
   var password = localStorage.getItem("password");
@@ -24,6 +25,7 @@ function checkFields(){
   else
     return true;
 }
+
 //login logout function
 function checkLog(){
   return localStorage.getItem("log");
